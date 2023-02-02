@@ -13,9 +13,9 @@
   <img src="https://user-images.githubusercontent.com/111386719/212760348-be2c2c31-0c7a-4ce8-8a1d-c128e305126f.png">
 </div>
 
-**O Projeto**
+## O Projeto
 
-House Bakery é uma padaria artesanal fictícia que foi criada para a prática de HTML5 e CSS3. O projeto foi construir o website da empresa para visualização dos produtos, espaço da loja e cafeteria, informações da empresa e também campo para contato e encomenda de produtos.
+House Bakery é uma padaria artesanal fictícia que foi criada para a prática de HTML5 e CSS3. O projeto foi construir o site da empresa com layout responsivo para visualização dos produtos, espaço da loja e cafeteria, informações da empresa e também campo com formulário para contato e encomenda de produtos.
 
 O cliente é a empresa House Bakery. Ela se posiciona como sendo uma padaria artesanal que foca na produção de produtos que além de saudáveis são muito saborosos. Seu modelo não é apenas vender pães, bolos e tortas diferenciadas, mas também proporcionar ao consumidor uma experiência única, com produtos produzidos com muito afeto e inspirados em receitas de família, além de contar com um espaço super aconchegante na lojinha e cafeteria para os clientes se sentirem à vontade, proporcionando uma experiência incrível.
 
@@ -32,3 +32,9 @@ O Logotipo foi criado especiamente para este projeto. Possui linhas arredondadas
 <div align="center">
  <img src=https://user-images.githubusercontent.com/111386719/212760326-9c894d7b-cff6-42ce-96aa-42e96cf1e76e.png width="70%">
 </div>
+
+## Tecnologias
+* HTML5
+* CSS3
+* Figma
+* Adobe Photoshop
