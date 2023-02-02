@@ -102,6 +102,7 @@ footer {
     margin: 0 0 1em;
     text-align: justify;
     color: #191919;
+    line-height: 1.2em;
 }
 
 .principal strong {
@@ -247,6 +248,7 @@ footer {
 .produto-descricao {
     font-size: 16px;
     color: #191919;
+    line-height: 1.2em;
 }
 
 .produto-preco {
@@ -339,6 +341,7 @@ footer {
 .faleconosco p {
     margin: 0 0 2em;
     color: #191919;
+    line-height: 1.2em;
 }
 
 .faleconosco strong {
@@ -436,6 +439,7 @@ form label, form legend {
     margin: 0 0 1em;
     text-align: center;
     color: #191919;
+    line-height: 1.2em;
 }
 
 .mapa-conteudo {
@@ -449,6 +453,7 @@ form label, form legend {
     margin: 0 0 1em;
     text-align: center;
     color: #191919;
+    line-height: 1.2em;
 }
 
 .titulo-funcionamento {
@@ -479,18 +484,54 @@ td, th {
     padding: 10px 21px;
 }
 
+
 @media screen and (max-width: 480px) {
-    .caixa, .principal, .loja, .artesanal, .mapa-conteudo, .video, .contato {
+    .produto-descricao {
+        display: none;
+    }
+
+    .produto-preco {
+        margin-top: 0;
+    }
+
+    .contato-form {
+        width: auto;
+        margin: 0 1em 0 1em;
+        font-size: 14px;
+        padding: 2em 4em 2em 2em;
+    }
+
+    .enviar {
+        width: 60%;
+    }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .logo-header {
+        width: 20%;
+        margin-bottom: 0.5em;
+    }
+
+    .caixa, .principal, .loja, .artesanal, .encomenda, .video, .mapa-conteudo, .contato {
         width: auto;
     }
 
-    /* header {
-        width: 100%;
-    } */
+    .principal, .loja, .encomenda, .contato, .funcionamento {
+        padding-right: 2em;
+        padding-left: 2em;
+    }
 
-    /* .banner {
+    .artesanal {
+        text-align: center;
+        padding-right: 4em;
+        padding-left: 4em;
+    }
+
+    main {
         width: 100%;
-    } */
+    }
 
     h1 {
         text-align: center;
@@ -500,20 +541,95 @@ td, th {
         text-align: center;
         margin-top: 20px;
     }
-    .imagem-loja, .lista-artesanal, .imagem-artesanal {
+
+    .imagem-loja {
+        width: 80%;
+    }
+
+    .lista-artesanal {
         width: 100%;
     }
+
+    .imagem-artesanal {
+        width: 80%;
+    }
+
+    .conteudo-artesanal {
+        display: block;
+        width: 100%;
+
+    }
+
+    .itens {
+        text-align: left;
+    }
+
+    .ver-produtos {
+        text-align: center;
+        margin: 2em 0 2em 0;
+    }
+
+    .produtos {
+        padding-left: 2em;
+        padding-right: 2em;
+        width: 80%;
+    }
+
+    .imagem-produto {
+        width: 100%;
+    }
+
+    .produtos li {
+        margin: 1em 2em 1em 2em;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .encomenda {
+        display: block;
+    }
+
+    .faleconosco, .contato-form, .funcionamento {
+        text-align: center;
+        width: auto;
+    }
+    
     .faleconosco, .contato-form {
         display: block;
         margin: 0 auto;
         margin-top: 30px;
         margin-bottom: 30px;
-        text-align: center;
         float: none;
     }
+
     .titulo-faleconosco {
         text-align: center;
     }
 
+    .enviar {
+        width: 40%;
+    }
+
+    .contato-form {
+        width: auto;
+        margin: 0 4em 0 4em;
+        font-size: 16px;
+    }
+
+    .imagem-faleconosco {
+        width: 60%;
+    }
+
+    .imagem-contato {
+        width: 70%;
+    }
+
+    .logo-footer {
+        width: 20%;
+    }
+
 
 }
+
+
+
